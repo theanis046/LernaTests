@@ -1,0 +1,21 @@
+{
+    "alb": {
+        "default": "http://albroot.{branchName}.{appName}.ae.sin.auto.prod.c0.sq.com.sg",
+        "byService": {}
+    },
+    "build": {
+        "alliancemapping": 15,
+        "businessrules": 15,
+        "carriercabinclassmapping": 15,
+        "entryMapping": 15,
+        "ffpcardmapping": 15,
+        "fqtsbusinessrules": 15,
+        "loungemapping": 15,
+        "registration": 15,        
+        "registration-failed": 15,
+        "regradecodemapping": 15,
+        "skkeywordmapping": 15,
+        "stationmapping": 15,
+        "tierderivation": 15
+    }
+}

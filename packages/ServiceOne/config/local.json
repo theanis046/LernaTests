@@ -1,0 +1,8 @@
+{
+    "alb": {
+        "default": "http://albroot.{branchName}-{build}.{appName}.ae.sin.auto.nonprod.c0.sq.com.sg",
+        "byService": {
+            "registration": "http://localhost:3002"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "flightTwo",
+    "version": "1.0.0",
+    "description": "the server for flight related services",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon",
+        "build": "rimraf ../../../../build && mkdir -p ../../../../build/platform && cp -r ../../../../platform ../../../../build && tsc -p tsconfig.build.json"
+    },
+    "keywords": [],
+    "author": "Stever Chiam",
+    "license": "ISC",
+    "dependencies": {
+        "reflect-metadata": "^0.1.13"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.0",
+        "rimraf": "~2.6.3",
+        "ts-node": "^8.1.0",
+        "tsconfig-paths": "^3.8.0",
+        "typescript": "^3.4.5"
+    }
+}
